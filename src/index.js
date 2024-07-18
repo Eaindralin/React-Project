@@ -1,17 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// JSX
+function CardList() {
+  return (
+    <main className="card-list">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </main>
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//const title = "Card Title";
+
+function Card() {
+  const title = "Card Title";
+  return (
+    <section className="card">
+      <img src="https://via.placeholder.com/150/92c952" alt="card-image" />
+      <h1 style={{marginTop:"1rem"}}>{title}</h1>
+      <Description />
+    </section>
+  );
+  function Description() {
+    return (
+      <p style={{marginTop:"1rem"}}>
+        A paragraph is a series.
+      </p>
+    );
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<CardList />);
