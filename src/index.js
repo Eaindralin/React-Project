@@ -5,6 +5,7 @@ import { click } from "@testing-library/user-event/dist/click";
 import { cards } from "./cards";
 import Card from "./Card";
 import {data,fruit} from "./data";
+import App from "./App";
 
 // JSX
 function CardList() {
@@ -19,9 +20,5 @@ function CardList() {
   );
 }
 
-//const title = "Card Title";
-
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<CardList />);
+root.render(<App />);
