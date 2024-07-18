@@ -22,7 +22,10 @@ function CardList() {
         image={card1.image}
         title={card1.title}
         description={card1.description}
-      />
+      >
+        <p>This is my paragraph for the first card.</p>
+
+      </Card>
       <Card
         image={card2.image}
         title={card2.title}
@@ -34,15 +37,15 @@ function CardList() {
 
 //const title = "Card Title";
 
-function Card(props) {
-  console.log(props)
+function Card({image, title, description, children}) {  
   return (
     <section className="card">
-      <img src={props.image} alt="card-image" />
-      <h1 style={{marginTop:"1rem"}}>{props.title}</h1>
-      <p>{props.description}</p>     
+      <img src={image} alt="card-image" />
+      <h1 style={{ marginTop: "1rem" }}>{title}</h1>
+      <p>{description}</p>
+      {children}
     </section>
-  ); 
+  );
 } 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
