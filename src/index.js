@@ -6,6 +6,7 @@ import { cards } from "./cards";
 import Card from "./Card";
 import {data,fruit} from "./data";
 import UseEffect from "./UseEffect";
+import UseReduce from "./UseReduce";
 import App from "./App";
 
 // JSX
@@ -22,4 +23,4 @@ function CardList() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<UseEffect />);
+root.render(<UseReduce />);
