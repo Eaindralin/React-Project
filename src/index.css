@@ -21,6 +21,43 @@ body{
         grid-template-columns: repeat(3,1fr);
     }
 }
+.users{
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+    list-style: none;
+}
+
+.users li{
+    padding: 1rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 10rem;
+}
+
+.users-list{
+     width: 90vw;
+    max-width: 1170px;
+    margin: 3rem auto;
+    display: grid;
+    gap: 2rem;    
+}
+
+@media screen and (min-width:768px){
+    .users-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
 
 .card{
     background: #fff;

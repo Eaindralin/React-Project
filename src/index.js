@@ -5,6 +5,7 @@ import { click } from "@testing-library/user-event/dist/click";
 import { cards } from "./cards";
 import Card from "./Card";
 import {data,fruit} from "./data";
+import UseEffect from "./UseEffect";
 import App from "./App";
 
 // JSX
@@ -21,4 +22,4 @@ function CardList() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<UseEffect />);
