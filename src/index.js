@@ -8,6 +8,8 @@ import {data,fruit} from "./data";
 import UseEffect from "./UseEffect";
 import UseReduce from "./UseReduce";
 import App from "./App";
+import Hello from "./Components/Hello";
+
 
 // JSX
 function CardList() {
@@ -23,4 +25,4 @@ function CardList() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<UseReduce />);
+root.render(<Hello />);
