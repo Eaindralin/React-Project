@@ -8,6 +8,7 @@ import ArrayComponent from "./5-useArray/ArrayComponent";
 import PreviousComponent from './6-usePrevious/PreviousComponent';
 import StateWithHistoryComponent from './7-useStateWithHistory/StateWithHistoryComponent';
 import StorageComponent from './8-useStorage/StorageComponent';
+import AsyncComponent from './9-useAsync/AsyncComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -17,7 +18,8 @@ function App() {
     //return <PreviousComponent/>;
    // return <ArrayComponent />;
    //return <StateWithHistoryComponent/>
-   return <StorageComponent/>
+   //return <StorageComponent/>
+   return <AsyncComponent/>;
 }
 
 export default App;
