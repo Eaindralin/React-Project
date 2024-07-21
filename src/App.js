@@ -6,6 +6,7 @@ import DebounceComponent from './3-useDebounce/DebounceComponent';
 import UpdateEffectComponent from './4-useUpdateEffect/UpdateEffectComponent';
 import ArrayComponent from "./5-useArray/ArrayComponent";
 import PreviousComponent from './6-usePrevious/PreviousComponent';
+import StateWithHistoryComponent from './7-useStateWithHistory/StateWithHistoryComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -13,7 +14,8 @@ function App() {
     //return <DebounceComponent />;
     // return <UpdateEffectComponent />;
     //return <PreviousComponent/>;
-    return <ArrayComponent />;
+   // return <ArrayComponent />;
+   return <StateWithHistoryComponent/>
   
 }
 
