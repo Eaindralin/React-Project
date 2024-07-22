@@ -10,6 +10,7 @@ import StateWithHistoryComponent from './7-useStateWithHistory/StateWithHistoryC
 import StorageComponent from './8-useStorage/StorageComponent';
 import AsyncComponent from './9-useAsync/AsyncComponent';
 import ScriptComponent from './11-useScript/ScriptComponent';
+import DeepCompareEffectComponent from './12-useDeepCompareEffect/DeepCompareEffectComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -21,7 +22,8 @@ function App() {
    //return <StateWithHistoryComponent/>
    //return <StorageComponent/>
    //return <AsyncComponent/>;
-   return <ScriptComponent />;
+   //return <ScriptComponent />;
+   return <DeepCompareEffectComponent/>
 }
 
 export default App;
