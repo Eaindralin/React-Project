@@ -13,6 +13,7 @@ import ScriptComponent from './11-useScript/ScriptComponent';
 import DeepCompareEffectComponent from './12-useDeepCompareEffect/DeepCompareEffectComponent';
 import EventListenerComponent from './13-useEventListener/EventListenerComponent';
 import OnScreenComponentComponent from './14-useOnScreen/OnScreenComponent';
+import WindowSizeComponent from './15-useWindowSize/WindowSizeComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -27,7 +28,8 @@ function App() {
    //return <ScriptComponent />;
    //return <DeepCompareEffectComponent/>
    //return <EventListenerComponent/>
-   return <OnScreenComponentComponent/>
+   //return <OnScreenComponentComponent/>
+   return <WindowSizeComponent />;
 }
 
 export default App;
