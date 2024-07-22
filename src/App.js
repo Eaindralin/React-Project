@@ -12,6 +12,7 @@ import AsyncComponent from './9-useAsync/AsyncComponent';
 import ScriptComponent from './11-useScript/ScriptComponent';
 import DeepCompareEffectComponent from './12-useDeepCompareEffect/DeepCompareEffectComponent';
 import EventListenerComponent from './13-useEventListener/EventListenerComponent';
+import OnScreenComponentComponent from './14-useOnScreen/OnScreenComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -25,7 +26,8 @@ function App() {
    //return <AsyncComponent/>;
    //return <ScriptComponent />;
    //return <DeepCompareEffectComponent/>
-   return <EventListenerComponent/>
+   //return <EventListenerComponent/>
+   return <OnScreenComponentComponent/>
 }
 
 export default App;
