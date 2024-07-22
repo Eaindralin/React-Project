@@ -14,6 +14,7 @@ import DeepCompareEffectComponent from './12-useDeepCompareEffect/DeepCompareEff
 import EventListenerComponent from './13-useEventListener/EventListenerComponent';
 import OnScreenComponentComponent from './14-useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './15-useWindowSize/WindowSizeComponent';
+import MediaQueryComponent from './16-useMediaQuery/MediaQueryComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -29,7 +30,8 @@ function App() {
    //return <DeepCompareEffectComponent/>
    //return <EventListenerComponent/>
    //return <OnScreenComponentComponent/>
-   return <WindowSizeComponent />;
+   //return <WindowSizeComponent />;
+   return <MediaQueryComponent />;
 }
 
 export default App;
