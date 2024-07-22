@@ -15,6 +15,7 @@ import EventListenerComponent from './13-useEventListener/EventListenerComponent
 import OnScreenComponentComponent from './14-useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './15-useWindowSize/WindowSizeComponent';
 import MediaQueryComponent from './16-useMediaQuery/MediaQueryComponent';
+import GeolocationComponent from './17-useGeolocation/GeolocationComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -31,7 +32,8 @@ function App() {
    //return <EventListenerComponent/>
    //return <OnScreenComponentComponent/>
    //return <WindowSizeComponent />;
-   return <MediaQueryComponent />;
+   //return <MediaQueryComponent />;
+   return <GeolocationComponent />;
 }
 
 export default App;
