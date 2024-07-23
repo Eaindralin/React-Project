@@ -16,6 +16,7 @@ import OnScreenComponentComponent from './14-useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './15-useWindowSize/WindowSizeComponent';
 import MediaQueryComponent from './16-useMediaQuery/MediaQueryComponent';
 import GeolocationComponent from './17-useGeolocation/GeolocationComponent';
+import StateWithValidationComponent from "./18-useStateWithValidation/StateWithValidationComponent";
 
 function App() {
     // return <ToggleComponent />
@@ -33,7 +34,8 @@ function App() {
    //return <OnScreenComponentComponent/>
    //return <WindowSizeComponent />;
    //return <MediaQueryComponent />;
-   return <GeolocationComponent />;
+  // return <GeolocationComponent />;
+  return <StateWithValidationComponent />;
 }
 
 export default App;
