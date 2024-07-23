@@ -18,6 +18,7 @@ import MediaQueryComponent from './16-useMediaQuery/MediaQueryComponent';
 import GeolocationComponent from './17-useGeolocation/GeolocationComponent';
 import StateWithValidationComponent from "./18-useStateWithValidation/StateWithValidationComponent";
 import SizeComponent from './19-useSize/SizeComponent';
+import EffectOneComponent from './20-useEffectOnce/EffectOnceComponent';
 
 function App() {
     // return <ToggleComponent />
@@ -37,7 +38,8 @@ function App() {
    //return <MediaQueryComponent />;
   // return <GeolocationComponent />;
   //return <StateWithValidationComponent />;
-  return <SizeComponent />;
+ // return <SizeComponent />;
+  return <EffectOneComponent />;
 }
 
 export default App;
